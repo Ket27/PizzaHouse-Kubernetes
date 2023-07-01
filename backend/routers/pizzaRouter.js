@@ -6,4 +6,8 @@ pizzaRouter
   .route('/post')
   .post(postPizza)
 
+pizzaRouter
+  .route('/get')
+  .get(getPizzas)
+
 module.exports = pizzaRouter
