@@ -1,0 +1,103 @@
+.App {
+  box-sizing: border-box;
+  margin : 0;
+  text-align: center;
+}
+
+.auth {
+  height:746.40px;
+  background-image: url("./pizza.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+  color : red;
+  background-image: url("./pizza.jpg");
+  height:110px;
+  justify-content: center;
+  align-items: center;
+  font-size:70px;
+  /* border-bottom:0.5rem outset rgba(237, 149, 62, 0.745); */
+  font-family: 'Brush Script MT', cursive;
+}
+
+.bgc{
+  display : flex;
+  background-image: url("./pizza.jpg");
+  height:200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav{
+  display :flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow:0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+a:hover{
+  color: brown;
+}
+
+.img{
+  background-image: url("./user.png");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.home{
+  height:100%;
+  background-image: url('./back.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pizzas{
+  display:flex;
+  justify-content:space-evenly;
+  width : 1200px;
+  align-items:center;
+  flex-wrap :wrap;
+  gap:10px;
+  margin-left: 140px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pizza{
+  display:flex;
+  height: 300px;
+  width:250px;
+  flex-direction: column;
+  padding-top: 100px;
+  justify-content: flex-end;
+  box-shadow: 0px 0px 5px grey;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.pizza h5{
+  height:100px;
+  font-size: x-small;
+}
+
+.pizimg{
+  background-image: url("./piz.jpg");
+  height:150px;
+  width:250px;
+  background-size:cover;
+  background-position: center;
+  margin-top: -40px;
+}
