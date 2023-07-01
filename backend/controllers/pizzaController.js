@@ -40,3 +40,23 @@ module.exports.postPizza = async(req,res) => {
         }
     }
 }
+
+module.exports.getPizzas = async(req,res) =>{
+    try{
+        const pizzas = await pizzaModel.find({});
+        if(pizzas){
+            res.json({
+            message:"pizzas fetched",
+            data: pizzas,
+        })
+        }
+        else{
+            res.json({
+                message:'no pizzas found',
+            })
+        }
+    }
+    catch{
+        res.status(500).json({ error: 'Failed to fetch pizzas' });
+    }
+}
