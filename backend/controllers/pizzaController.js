@@ -60,3 +60,26 @@ module.exports.getPizzas = async(req,res) =>{
         res.status(500).json({ error: 'Failed to fetch pizzas' });
     }
 }
+
+module.exports.getOnePizza = async(req, res) => {
+    try
+    {const {id} = req.params;
+    const pizza = await pizzaModel.findById(id);
+    if(pizza){
+        res.json({
+        message:"pizza found",
+        data:pizza,
+    })
+    }
+    else{
+        res.json({
+            message:"sorry",
+        })
+    }}
+    
+        catch{
+            res.status(500).json({ error: 'Failed to fetch pizzas' });
+        }
+    
+    
+}
