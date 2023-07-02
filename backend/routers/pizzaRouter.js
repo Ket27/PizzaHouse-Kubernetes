@@ -10,4 +10,9 @@ pizzaRouter
   .route('/get')
   .get(getPizzas)
 
+pizzaRouter
+  .route('/getPizza/:id')
+  .get(getOnePizza)
+
+
 module.exports = pizzaRouter
