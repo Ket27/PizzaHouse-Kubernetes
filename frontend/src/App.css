@@ -1,0 +1,148 @@
+.App {
+  box-sizing: border-box;
+  margin : 0;
+  text-align: center;
+}
+
+.auth {
+  height:746.40px;
+  background-image: url("./pizza.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+  color : red;
+  background-image: url("./pizza.jpg");
+  height:110px;
+  justify-content: center;
+  align-items: center;
+  font-size:70px;
+  /* border-bottom:0.5rem outset rgba(237, 149, 62, 0.745); */
+  font-family: 'Brush Script MT', cursive;
+}
+
+.bgc{
+  display : flex;
+  background-image: url("./pizza.jpg");
+  height:200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav{
+  display :flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow:0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+a:hover{
+  color: brown;
+}
+
+.img{
+  background-image: url("./user.png");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.home{
+  height:100%;
+  background-image: url('./back.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pizzas{
+  display:flex;
+  justify-content:space-evenly;
+  width : 1200px;
+  align-items:center;
+  flex-wrap :wrap;
+  gap:10px;
+  margin-left: 140px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pizza{
+  display:flex;
+  height: 300px;
+  width:250px;
+  flex-direction: column;
+  padding-top: 100px;
+  justify-content: flex-end;
+  box-shadow: 0px 0px 5px grey;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.pizza h5{
+  height:100px;
+  font-size: x-small;
+}
+
+.pizimg{
+  background-image: url("./piz.jpg");
+  height:150px;
+  width:250px;
+  background-size:cover;
+  background-position: center;
+  margin-top: -40px;
+}
+
+.pizname{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 250px;
+  margin-right: 950px;
+  word-spacing: 1px;
+
+}
+
+.desc h5{
+  margin-right: 1036px;
+  width:350px;
+  margin-left: 100px;
+  margin-top:19px;
+}
+
+.pricerate{
+  display:flex;
+  justify-content: space-between;
+  width:350px;
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.review{
+  margin-top:88px;
+}
+
+.rate{
+  display: flex;
+  margin-bottom:48px;
+  margin-top: -50px;
+  margin-left:100px;
+  gap:10px;
+}
+
+.pizzaimage{
+  background-image: url("./piz.jpg");
+  background-size:cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin-left: 170px;
+  margin-top: -200px;
+}
