@@ -15,6 +15,7 @@ function App() {
             <Route path="/" element={<AuthPage />}/>
             <Route path = "/menu" element ={<PrivateRoute Component={MenuPage}/>}/>
             <Route path="/home" element={<PrivateRoute Component={HomePage}/>}/>
+            <Route path="/menu/:pizzaId" element={<PrivateRoute Component={PizzaPage}/>}/>
           </Routes>
         </AppProvider>
       </Router>   
