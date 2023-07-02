@@ -53,7 +53,7 @@ const MenuPage = () => {
                 {pizzas.map((pizza) => (
                 <div key={pizza._id} className="pizza" style={pizza.nonVeg?{backgroundColor:"rgb(218, 61, 40)"}:{backgroundColor:"rgb(159, 224, 135)"}}>
                     <div className="pizimg"></div>
-                    <h3><Link to = {`/menu/:${pizza._id}`}>{pizza.name}</Link></h3>
+                    <h3><Link to = {`/menu/:${pizza._id}`} pizzaid={pizza.id}>{pizza.name}</Link></h3>
                     <h5>{pizza.description}</h5>
                 </div>
                 ))}
