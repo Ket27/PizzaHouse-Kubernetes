@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Box, Text } from '@chakra-ui/react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-import Login from '../Components/Authorization/Login';
-import SignUp from '../Components/Authorization/SignUp';
+import Login from '../Components/Authorization/Login.js';
+import SignUp from '../Components/Authorization/SignUp.js';
 
 const AuthPage = () => {
     return(

@@ -1,6 +1,6 @@
 const express = require('express')
 const pizzaRouter = express.Router();
-const { postPizza, loginUser} = require("../controllers/pizzaController");
+const { postPizza, loginUser, getPizzas, getOnePizza} = require("../controllers/pizzaController");
 
 pizzaRouter
   .route('/post')

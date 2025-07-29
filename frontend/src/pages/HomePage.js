@@ -1,5 +1,5 @@
-import Navbar from '../Components/Navbar';
-import { AppState } from '../context/AppProvider';
+import Navbar from '../Components/Navbar.js';
+import { AppState } from '../context/AppProvider.js';
 import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {

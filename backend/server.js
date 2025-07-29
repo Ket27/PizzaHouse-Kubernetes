@@ -19,4 +19,4 @@ app.use('/api/auth', userRouter);
 app.use('/api/plans', pizzaRouter);
 app.use('/api/reviews', reviewRouter)
 
-app.listen(5000, console.log(`Server is listening to port ${PORT}`))
+app.listen(PORT, console.log(`Server is listening to port ${PORT}`))

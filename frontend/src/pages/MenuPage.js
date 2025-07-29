@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios";
-import Navbar from '../Components/Navbar';
-import { AppState } from '../context/AppProvider';
+import Navbar from '../Components/Navbar.js';
+import { AppState } from '../context/AppProvider.js';
 import { useNavigate } from 'react-router-dom';
 import {Link} from 'react-router-dom'
 

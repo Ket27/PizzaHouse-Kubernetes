@@ -1,10 +1,11 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-import AuthPage from './Pages/AuthPage';
-import HomePage from  './Pages/HomePage';
-import MenuPage from './Pages/MenuPage';
-import PrivateRoute from './Components/PrivateAuth/PrivateRoute';
-import AppProvider from './context/AppProvider';
+import AuthPage from './pages/AuthPage.js';
+import HomePage from  './pages/HomePage.js';
+import MenuPage from './pages/MenuPage.js';
+import PizzaPage from './pages/PizzaPage.js';
+import PrivateRoute from './Components/PrivateAuth/PrivateRoute.js';
+import AppProvider from './context/AppProvider.js';
 
 function App() {
   return (
